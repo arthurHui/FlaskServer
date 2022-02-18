@@ -51,9 +51,13 @@ How to install: pip install threading
 Threading can run multiple I/O-bound tasks simultaneously.
 
 Executing the application:
-The first time who runs the server that will create the database file. The user can use the product id to get all attributes. In curl, the user can input commands like
-“curl http://localhost:5000/find/1” to get the product1 attributes. Then, the server will return the execution ID and JSON formatted responses. Second, when the user wants to buy a product, the user can input a product id, a quantity
-to buy, and a credit card number. In curl, the user can input commands like “curl -d "{\"id\":1,\"quantity\":1,\"card\":\"WERDFRGTYFGTRHYU\"}" -H "Content-Type: application/json" -X PUT http://localhost:5000/buy” to buy a product. In addition, the user can input a product ID and a quantity to replenish the stock of the product, and then update the quantity in the database. In curl, the user can input commands like “curl -d "{\"id\":1,\"quantity\":1}" -H "Content-Type: application/json" -X PUT http://localhost:5000/replenish” to update the stock of the product.
+The first time who runs the server that will create the database file. The user can use the product id to get all attributes. 
+
+In curl, the user can input commands like “curl http://localhost:5000/find/1” to get the product1 attributes. Then, the server will return the execution ID and JSON formatted responses. Second, when the user wants to buy a product, the user can input a product id, a quantity to buy, and a credit card number. 
+
+In curl, the user can input commands like “curl -d "{\"id\":1,\"quantity\":1,\"card\":\"WERDFRGTYFGTRHYU\"}" -H "Content-Type: application/json" -X PUT http://localhost:5000/buy” to buy a product. In addition, the user can input a product ID and a quantity to replenish the stock of the product, and then update the quantity in the database. 
+
+In curl, the user can input commands like “curl -d "{\"id\":1,\"quantity\":1}" -H "Content-Type: application/json" -X PUT http://localhost:5000/replenish” to update the stock of the product.
 
 Instructions for setting up and executing the unit tests
 
