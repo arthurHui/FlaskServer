@@ -19,21 +19,25 @@ Instructions for setting up and executing the application
 
 
 Import module:
--Flask from flask
-How to install: pip install Flask
+-Flask from flask How to install: pip install Flask
 Use the flask to create the app and make the web
+
 -jsonify from flask
 How to install: pip install Flask
 Make the web server response return JSON formatted data.
+
 -request from flask
 How to install: pip install Flask
 Make the web server have the GET, PUT function to get the request.
+
 -ntplib
 How to install: install python-ntplib
 Offers a simple interface to query NTP servers from Python.
+
 -time
 How to install: pip install python-time
 Converts a time expressed in seconds since the epoch to a string representing local time.
+
 -hashlib
 How to install: pip install hashlib
 Convert the time string to bytes, and find the SHA256 checksum of the bytes.
